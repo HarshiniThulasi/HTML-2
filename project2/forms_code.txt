@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome</title>
+    </head>
+    <body>
+        <h2><center>Create Account</center></h2><hr>
+    </body>
+    <form>
+        <label for="name"><b>First Name</b></label>
+        <input type="text" id="name" placeholder="enter your first name" required>
+        <label for="name"><b>Last Name</b></label>
+        <input type="text" id="name" placeholder="enter your last name"><br><br>
+        <label for="mail"><b>Email</b></label>
+        <input type="email" id="mail" name="email" placeholder="enter your email" required><br><br>
+        <label for="pass"><b>Password</b></label>
+        <input type="password" id="pass" placeholder="enter your password" required>
+        <label for="pass"><b>Confirm Password</b></label>
+        <input type="password" id="pass" placeholder="enter your password again" required><br><br>
+        <label><b>Gender</b></label>
+        <input type="radio" id="v1" name="radio">
+        <label for="v1">Male</label>
+        <input type="radio" id="v2" name="radio">
+        <label for="v2">Female</label><br><br>
+        <label><b>Hobbies</b></label>
+        <input type="checkbox" id="v1" name="radio">
+        <label for="v1">Music</label>
+        <input type="checkbox" id="v2" name="radio">
+        <label for="v2">Sports</label>
+        <input type="checkbox" id="v3" name="radio">
+        <label for="v3">Travel</label>
+        <input type="checkbox" id="v4" name="radio">
+        <label for="v4">Movies</label><br><br>
+        <label><b>Source of Income</b></label>
+        <select><option value="employed">Employed</option>
+        <option value="unemployed">Unemployed</option></select><br><br>
+        <label for="val2"><b>Income</b></label>
+        <input type="range" id="val2" value="0"><b>20k</b><br><br>
+        <label for="file"><b>Upload Profile Picture</b></label>
+        <input type="file" id="file">
+        <label for="age"><b>Age</b></label>
+        <input type="number" id="age"><br><br>
+        <label><b>Bio</b></label><br>
+        <textarea rows="05" cols="92"></textarea><br><hr>
+        <center><input type="submit" value="Create"></center>
+    </form>
+</html>
